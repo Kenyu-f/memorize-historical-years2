@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>歴史年号クイズ（日本史）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="quizMenu">
+      <button class="btn" onclick="startQuiz('ancient1')">古代1</button>      
+      <button class="btn" onclick="startQuiz('ancient2')">古代2</button>      
+      <button class="btn" onclick="startQuiz('medieval1')">中世1</button>
+      <button class="btn" onclick="startQuiz('medieval2')">中世2</button>
+      <button class="btn" onclick="startQuiz('earlyModern1')">近世1</button>
+      <button class="btn" onclick="startQuiz('earlyModern2')">近世2</button>
+      <button class="btn" onclick="startQuiz('modern1')">近代1</button>
+      <button class="btn" onclick="startQuiz('modern2')">近代2</button>
+      <button class="btn" onclick="startQuiz('modern3')">近代3</button>
+      <button class="btn" onclick="startQuiz('modern4')">近代4</button>
+      <button class="btn" onclick="startQuiz('contemporary1')">現代1</button>
+      <button class="btn" onclick="startQuiz('contemporary2')">現代2</button>
+    </div>
+    <button id="returnButton" class="btn return" onclick="returnToMenu()" style="display: none;">戻る</button>
+    <div id="question" class="question"></div>
+    <div id="options" class="options"></div>
+    <div id="score" class="score"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
